@@ -15,5 +15,5 @@
 homepage: "https://www.enkeltpersonvern.no/"
 documentation: "https://www.enkeltpersonvern.no/"
 versions:
-  - sha: xxxxx
+  - sha: e2116086434b247b0fa18d4122c94f53553f088d
     changeNotes: Initial Version
