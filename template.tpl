@@ -305,8 +305,8 @@ const mapConsentCategoriesToGTM = (consent) => {
 
   return {
     ad_storage: mapBooleanToGTM(consent.marketing || false),
-    ad_user_data: mapBooleanToGTM(consent.personalization || false),
-    ad_personalization: mapBooleanToGTM(consent.personalization || false),
+    ad_user_data: mapBooleanToGTM(consent.marketing || false),
+    ad_personalization: mapBooleanToGTM(consent.marketing || false),
     analytics_storage: mapBooleanToGTM(consent.analytics || false),
     functionality_storage: mapBooleanToGTM(consent.necessary || false),
     personalization_storage: mapBooleanToGTM(consent.personalization || false),
